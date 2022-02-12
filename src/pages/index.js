@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ToiletCard from '../components/ToiletCard.js'
 import '../components/ToiletCard.css'
 import Banner from '../components/Banner.js'
