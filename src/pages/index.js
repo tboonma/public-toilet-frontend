@@ -3,6 +3,7 @@ import ToiletCard from '../components/ToiletCard.js'
 import '../components/ToiletCard.css'
 import Banner from '../components/Banner.js'
 import Background from '../background.jpg'
+import Expected from "../components/Expected.js"
 
 const Index = () => {
   return (
@@ -35,6 +36,7 @@ const Index = () => {
           />
         </div>
       </div>
+      <Expected avg="15.00" />
     </div>
   )
 }
