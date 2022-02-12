@@ -3,7 +3,7 @@ import ToiletCard from '../components/ToiletCard.js'
 import '../components/ToiletCard.css'
 import Banner from '../components/Banner.js'
 import Background from '../background.jpg'
-import Expected from "../components/Expected.js"
+import Expected from '../components/Expected.js'
 
 const Index = () => {
   return (
