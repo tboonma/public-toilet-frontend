@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 body {
-  background-color: #eeeeee;
+  font-family: 'Prompt', sans-serif;
 }
 
 .page-title {
@@ -17,7 +19,7 @@ body {
   width: 20rem;
   height: 30rem;
   box-shadow: 2px 3px 4px #888888;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: white;
   margin: 3rem;
   padding: 15px;
@@ -31,12 +33,25 @@ body {
 
 .toilet-card .toilet-card-title {
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.toilet-card .toilet-card-time {
+.toilet-card .toilet-card-time h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.toilet-card .toilet-card-time h2 {
+  margin-top: 0;
   text-align: center;
 }
 
-.toilet-card .toilet-card-elapsed {
+.toilet-card .toilet-card-elapsed h3 {
   text-align: center;
+  margin-bottom: 0;
+}
+
+.toilet-card .toilet-card-elapsed h2 {
+  text-align: center;
+  margin-top: 0;
 }

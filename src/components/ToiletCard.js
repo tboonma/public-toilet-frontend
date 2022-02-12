@@ -4,14 +4,20 @@ const ToiletCard = (toilet) => {
   return (
     <div className="toilet-card">
       <img
-        src="http://pngimg.com/uploads/toilet/toilet_PNG17753.png"
+        src={toilet.img}
         width="100px"
         height="100px"
         alt={toilet.title}
       ></img>
       <h1 className="toilet-card-title">{toilet.title}</h1>
-      <h2 className="toilet-card-time">{toilet.time}</h2>
-      <h2 className="toilet-card-elapsed">{toilet.elapsed}</h2>
+      <div className="toilet-card-time">
+        <h3>Time Entered</h3>
+        <h2>{toilet.time}</h2>
+      </div>
+      <div className="toilet-card-elapsed">
+        <h3>Time Elapsed</h3>
+        <h2>{toilet.elapsed}</h2>
+      </div>
     </div>
   )
 }
