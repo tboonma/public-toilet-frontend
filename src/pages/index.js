@@ -1,12 +1,11 @@
 import React from "react"
 import ToiletCard from "../components/ToiletCard.js"
 import "../components/ToiletCard.css"
-import Banner from "../components/Banner.js"
+import Expected from "../components/Expected.js"
 
 const Index = () => {
   return (
-    <div Index>
-      <Banner />
+    <div className="index">
       <div className="allcard">
         <ToiletCard
           title="Test Toilet 1"
@@ -27,6 +26,7 @@ const Index = () => {
           status="open"
         />
       </div>
+      <Expected avg="15.00" />
     </div>
   )
 }
