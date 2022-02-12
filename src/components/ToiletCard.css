@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +12,18 @@
 }
 
 body {
-  background-color: #eeeeee;
+  font-family: 'Prompt', sans-serif;
+}
+
+.page-title {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.toilets-section {
+  padding: 0 5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 .allcard {
   display: flex;
@@ -29,8 +42,41 @@ body {
   gap: 20px;
   height: 450px;
   box-shadow: 2px 3px 4px #888888;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: white;
+  margin: 3rem;
+  padding: 15px;
+}
+
+.toilet-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toilet-card .toilet-card-title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.toilet-card .toilet-card-time h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.toilet-card .toilet-card-time h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.toilet-card .toilet-card-elapsed h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.toilet-card .toilet-card-elapsed h2 {
+  text-align: center;
+  margin-top: 0;
 }
 .pic-only {
   height: 200px;
