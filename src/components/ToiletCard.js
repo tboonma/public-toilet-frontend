@@ -20,10 +20,19 @@ const ToiletCard = (toilet) => {
           <img src={spic} alt={toilet.status} className="pic-only" />
         </div>
         <div className="time">
-          <h3>เวลาที่เข้า {toilet.time}</h3>
+          <h3>
+            {toilet.time === undefined ? '' : 'เวลาที่เข้า ' + toilet.time}
+          </h3>
         </div>
         <div className="timer">
-          <h3>เข้ามาแล้ว {toilet.timer}</h3>
+          <h3>
+            {toilet.status === 'closed' ? '' : 'เข้ามาแล้ว ' + toilet.timerHrs}
+          </h3>
+        </div>
+        <div className="timer">
+          <h3>
+            {toilet.timer === undefined ? '' : 'อีกประมาณ ' + toilet.timer}
+          </h3>
         </div>
       </div>
     </div>
