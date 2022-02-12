@@ -1,4 +1,30 @@
-.banner {
-  margin: 20px 100px;
+.banner-border {
+  margin: 100px 100px 30px;
   font-size: larger;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.banner {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.banner h1 {
+  font-size: 30px;
+}
+
+.clock {
+  background-color: #b9f59d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #498a2b;
 }
