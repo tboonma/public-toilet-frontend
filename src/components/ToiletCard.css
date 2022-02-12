@@ -14,14 +14,18 @@ body {
   flex-wrap: wrap;
   width: 300px;
   gap: 20px;
-  height: 350px;
+  height: 550px;
   box-shadow: 2px 3px 4px #888888;
   border-radius: 10px;
   background-color: white;
 }
 .pic-only {
-  flex: 0 0 70%;
+  flex: 0 0 60%;
 }
 .time {
-  margin-left: 150px;
+  text-align: center;
+  flex: 0 0 100%;
+}
+.timer {
+  padding-bottom: 20px;
 }

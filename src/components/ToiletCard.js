@@ -15,10 +15,10 @@ const ToiletCard = (toilet) => {
         />
       </div>
       <div className="time">
-        <h3>{toilet.time}</h3>
+        <h3>เวลาที่เข้า {toilet.time}</h3>
       </div>
       <div className="timer">
-        <h3>{toilet.timer}</h3>
+        <h3>เข้ามาแล้ว {toilet.timer}</h3>
       </div>
     </div>
   )
