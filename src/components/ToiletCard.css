@@ -6,7 +6,14 @@
 body {
   background-color: #eeeeee;
 }
-
+.allcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+}
 .toilet-card {
   align-items: center;
   justify-content: center;
@@ -14,13 +21,13 @@ body {
   flex-wrap: wrap;
   width: 300px;
   gap: 20px;
-  height: 550px;
+  height: 450px;
   box-shadow: 2px 3px 4px #888888;
   border-radius: 10px;
   background-color: white;
 }
 .pic-only {
-  flex: 0 0 60%;
+  height: 200px;
 }
 .time {
   text-align: center;
