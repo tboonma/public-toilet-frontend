@@ -1,22 +1,31 @@
-import react from 'react'
-import ToiletCard from '../components/ToiletCard.js'
-import '../components/ToiletCard.css'
+import React from "react"
+import ToiletCard from "../components/ToiletCard.js"
+import "../components/ToiletCard.css"
+import Banner from "../components/Banner.js"
 
 const Index = () => {
   return (
-    <div>
-      <div className="page-title">
-        <h1>Toilet Management</h1>
-      </div>
-      <div className="toilets-section">
+    <div Index>
+      <Banner />
+      <div className="allcard">
         <ToiletCard
-          img="../closed-door.jpg"
           title="Test Toilet 1"
-          time="13.00"
-          elapsed="02.00"
+          time="12.59"
+          timer="15.00"
+          status="open"
         />
-        <ToiletCard title="Test Toilet 2" time="13.00" elapsed="02.00" />
-        <ToiletCard title="Test Toilet 3" time="13.00" elapsed="02.00" />
+        <ToiletCard
+          title="Test Toilet 2"
+          time="13.59"
+          timer="10.00"
+          status="closed"
+        />
+        <ToiletCard
+          title="Test Toilet 3"
+          time="1.59"
+          timer="11.00"
+          status="open"
+        />
       </div>
     </div>
   )
