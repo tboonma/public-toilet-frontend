@@ -1,11 +1,11 @@
-import react from "react";
+import react from 'react'
 
 const ToiletCard = (toilet) => {
-    return (
-        <div class="">
-            
-        </div>
-    )
+  return (
+    <div class="toilet-card">
+      <h1>{toilet.title}</h1>
+    </div>
+  )
 }
 
 export default ToiletCard
